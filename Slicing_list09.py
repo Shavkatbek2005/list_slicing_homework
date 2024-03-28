@@ -1,4 +1,4 @@
-def main(list1,n):
+def main(l,n):
     """
     A list of several elements is given. Return all items except n elements from the beginning.
     Args:
@@ -7,4 +7,5 @@ def main(list1,n):
     Returns:
         list: return answer.
     """
-    return
+    return l[:n]
+print(main([1,2,3,4,5,6],6))

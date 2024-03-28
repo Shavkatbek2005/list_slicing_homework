@@ -1,4 +1,4 @@
-def main(list1):
+def main(l):
     """
     A list of several elements is given. Return this list by adding the reverse.
     Args:
@@ -6,4 +6,5 @@ def main(list1):
     Returns:
         list: return answer.
     """
-    return
+    return l[0::]+l[::-1]
+print(main([1,2,3,4,5,6]))

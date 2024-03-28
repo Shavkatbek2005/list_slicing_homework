@@ -1,4 +1,4 @@
-def main(numbers):
+def main(n):
     """
     A list called numbers is given. Return the items in the even index.
     Args:
@@ -6,4 +6,5 @@ def main(numbers):
     Returns:
         list: return answer.
     """
-    return
+    return n[::2]
+print(main([1,2,3,4,5,6]))

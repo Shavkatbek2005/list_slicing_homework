@@ -1,4 +1,4 @@
-def main(list1):
+def main(l):
     """
     A list of several elements is given. Return the three elements from the beginning.
     Args:
@@ -6,4 +6,5 @@ def main(list1):
     Returns:
         list: return answer.
     """
-    return
+    return l[:3]
+print(main([1,2,3,4,5]))
